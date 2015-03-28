@@ -50,7 +50,15 @@ body {
 				    <li><a href="Order here.html">Order Here</a></li>
 					<li><a class="active" href="contact.html">Contact</a></li>
 				</ul>
-			</div>			
+			</div>
+			
+				<script>
+					   $( "span.menu" ).click(function() {
+						 $( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						  });
+						 });
+					</script>
 
 
 
