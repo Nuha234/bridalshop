@@ -5,4 +5,16 @@
     <title>Bridalshop</title>
     <link rel="stylesheet" href="support/mocha.css" />
   </head>
-  
+  <body>
+    <div id="mocha"></div>
+    <script src="support/jquery.js"></script>
+
+    <script src="support/mocha.js"></script>
+    <script>mocha.setup("bdd")</script>
+
+    <script src="support/chai.js"></script>
+    <script type="text/javascript">
+      window.assert = chai.assert;
+    </script>
+    <script src="localStorage_commonjs_spec.bundled.js"></script>
+ 
