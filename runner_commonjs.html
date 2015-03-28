@@ -17,4 +17,13 @@
       window.assert = chai.assert;
     </script>
     <script src="localStorage_commonjs_spec.bundled.js"></script>
+  <script>
+      mocha.ignoreLeaks(true)
+      if (window.mochaPhantomJS)
+        mochaPhantomJS.run();
+      else
+        mocha.run();
+    </script>
+  </body>
+</html>
  
