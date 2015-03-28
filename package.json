@@ -1,0 +1,32 @@
+{
+  "author": "Nuha Talal <nuha234@gmail.com>",
+  "name": "backbone.localstorage",
+  "version": "1.1.16",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nuha234/bridalshop.git"
+  },
+  "devDependencies": {
+    "backbone": "~1.x.x",
+    "browserify": "~2.x.x",
+    "jquery": "~2.1.0",
+    "mocha-phantomjs": "^3.5.3",
+    "uglify-js": "~1.2.6",
+    "underscore": ">=1.4.0"
+  },
+  "peerDependencies": {
+    "backbone": "~1.x.x"
+  },
+  "keywords": [
+    "backbone",
+    "localstorage",
+    "local",
+    "storage",
+    "cache",
+    "sync"
+  ],
+  "main": "./backbone.localStorage.js",
+  "engines": {
+    "node": "*"
+  }
+}
